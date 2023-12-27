@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+@import url(./css/header.css);
+@import url(./css/null.css);
+@import url(./css/home-page.css);
+@import url(./css/service-page.css);
+@import url(./css/cosmetics.css);
+@import url(./css/works.css);
+@import url(./css/masters.css);
+@import url(./css/footer.css);
+@import url(./css/price.css);
+
+.body {
+    background: #111111;
+    
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 16%;
+}
+/* @media (max-width: 1230px)
+@media (max-width: 1024px)
+@media (max-width: 768px)
+@media (max-width: 480px)
+@media (max-width: 320px) */
+
+@media (max-width: 1300px) {
+
+    .container {
+        margin: 0 10%;
+    }
+}
