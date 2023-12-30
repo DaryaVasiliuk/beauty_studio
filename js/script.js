@@ -1,5 +1,7 @@
-$(document).ready(function() {
-    $('.header__burger').click(function(event) {
-        $('.heaser__burger, .heaser__menu').toggleClass('active');
-    })
-}) 
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+})
